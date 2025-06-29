@@ -1,0 +1,395 @@
+[
+  {
+    "title": "The Body Keeps the Score",
+    "subtitle": "Brain, Mind, and Body in the Healing of Trauma",
+    "author": "Bessel van der Kolk, M.D.",
+    "isbn": {
+      "hardcover": "9780670785933",
+      "paperback": "9780143127741",
+      "ebook": "9781101608302"
+    },
+    "tags" : ["PTSD", "Psychotherapy"],
+    "search_tags": [
+      "trauma",
+      "PTSD",
+      "neuroscience",
+      "psychology",
+      "healing",
+      "therapy",
+      "brain research",
+      "childhood trauma",
+      "body therapy",
+      "EMDR",
+      "yoga",
+      "mindfulness",
+      "attachment",
+      "mental health",
+      "recovery"
+    ],
+    "shortDescription": "An exploration of how trauma affects the brain and body by a leading researcher.",
+    "excerpt": "Traumatized people chronically feel unsafe inside their bodies: The past is alive in the form of gnawing interior discomfort. Their bodies are constantly bombarded by visceral warning signs, and, in an attempt to control these processes, they often become expert at ignoring their gut feelings and in numbing awareness of what is played out inside. They learn to hide from their selves.",
+    "reviews": [
+      {
+        "review": "Packed with science and human stories, the book is an intense read that can get technical. Stay with it, though: van der Kolk has a lot to say, and the struggle and resilience of his patients is very moving.",
+        "reviewer": "Shaoni Bhattacharya, New Scientist"
+      },
+      {
+        "review": "Essential reading for anyone interested in understanding and treating traumatic stress and the scope of its impact on society.",
+        "reviewer": "Alexander McFarlane, Director of the Centre for Traumatic Stress Studies"
+      },
+      {
+        "review": "Breathtaking in its scope and breadth, The Body Keeps the Score is a seminal work by one of the preeminent pioneers in trauma research and treatment.",
+        "reviewer": "Peter A. Levine, Ph.D., author of In an Unspoken Voice"
+      }
+    ],
+    "coverImageLink": ""
+  },
+
+
+
+  {
+    "title": "Modern Engineering for Design of Liquid-Propellant Rocket Engines",
+    "subtitle": "",
+    "author": "Dieter K. Huzel and David H. Huang",
+    "isbn": {
+      "print": "978-1-56347-013-4",
+      "electronic": "978-1-60086-619-7"
+    },
+    "tags" : ["Rocket Science", "Propulsion Systems", "Science"],
+    "search_tags": [
+      "liquid rocket engines",
+      "turbopump design",
+      "thrust chambers",
+      "combustion devices",
+      "propellant feed systems",
+      "rocket engine control systems",
+      "propellant tanks",
+      "gas-generator cycles",
+      "regenerative cooling",
+      "aerospace engineering",
+      "chemical propulsion",
+      "engine systems integration"
+    ],
+    "shortDescription": "Bridges the gap between first principles & actual rocket science. Uses solved design examples and engineering drawings to describe engine components.",
+    "excerpt": "This book intends to build a bridge for the student and the young engineer: to link the rocket propulsion fundamentals and elements (which are well covered in the literature) with the actual rocket engine design and development work as it is carried out in industry... The book attempts to further the understanding of the realistic application of liquid rocket propulsion theories, and to help avoid or at least reduce time and money consuming errors and disappointments.",
+    "reviews": [
+      {
+        "review": "This book is a fantastic introduction to the design of liquid rocket engines in that it covers every component, from the thrust chamber itself to turbopumps, valves, propellant tanks and control systems. It goes over the relevant theory for each subsystem, and provides guidelines for their design based on NASA's experience. Solved design examples are provided in each section",
+        "reviewer": "Amazon Technical Reviewer"
+      },
+      {
+        "review": "Written by engineers from Rockwell International's Rocketdyne division, this book is the most comprehensive of its type... it was written with the intention that you could give it to a new engineer, and by the end of the book they would be ready to start assignments on rocket engineering",
+        "reviewer": "Amazon Engineering Professional"
+      },
+      {
+        "review": "If you work in the Rocket industry this is a must have in your office desk or home library. Perfect for senior engineering students who are interested in learning and understanding liquid rocket propellant and the challenges that are involved",
+        "reviewer": "Industry Professional Review"
+      }
+    ],
+    "coverImageLink": ""
+  },
+
+
+
+
+  {
+    "title": "Ignition!",
+    "subtitle": "An Informal History of Liquid Rocket Propellants",
+    "author": "John Drury Clark, Ph.D.",
+    "isbn": {
+      "2018_reprint": "978-0-8135-9583-2",
+      "original_1972": "978-0-8135-0725-5"
+    },
+    "tags" : ["Propulsion Systems", "Science"],
+    "search_tags": [
+      "liquid rocket propellants",
+      "rocket fuel chemistry",
+      "hypergolic propellants",
+      "oxidizers",
+      "chemical safety",
+      "aerospace history",
+      "Cold War research",
+      "propellant testing",
+      "chemical explosives",
+      "rocket science history",
+      "chlorine trifluoride",
+      "hydrazine compounds"
+    ],
+    "shortDescription": "The story of early rocketry told via propellants one explosion at a time.",
+    "excerpt": "[Chlorine Trifluoride] is, of course, extremely toxic, but that's the least of the problem. It is hypergolic with every known fuel, and so rapidly hypergolic that no ignition delay has ever been measured. It is also hypergolic with such things as cloth, wood, and test engineers, not to mention asbestos, sand, and water — with which it reacts explosively.",
+    "reviews": [
+      {
+        "review": "The funniest, most accessible book on rocket science... Often hilarious, always informative, this history of rocket science is a must-read. It's rare that a book about as high-minded and serious a topic as rocket science manages to be both highly informative and laugh-out-loud funny. A cult classic among chemists",
+        "reviewer": "Ars Technica Technical Publication"
+      },
+      {
+        "review": "This insider's account of the early years of rocketry captures the excitement of researching and developing technologies that lie outside the realm of computer science",
+        "reviewer": "Inc. Magazine Technology Review"
+      },
+      {
+        "review": "Read this book. You'll find plenty about John and all the other sky-high crackpots who were in the field with him and you may even get a glimpse of the heroic excitement that seemed to make it reasonable to cuddle with death every waking moment—to say nothing of learning a heck of a lot about the way in which the business of science is really conducted",
+        "reviewer": "Isaac Asimov, Foreword"
+      }
+    ],
+    "coverImageLink": ""
+  },
+
+
+
+
+
+  {
+    "title": "The Everyday Life of an Algorithm",
+    "author": "Daniel Neyland",
+    "isbn": {
+      "hardcover": "978-3-030-00578-8",
+      "softcover": "978-3-030-00577-1"
+    },
+    "tags" : ["Algorithms", "Computer Science"],
+    "search_tags": [
+      "ethnography",
+      "algorithm studies",
+      "digital accountability",
+      "surveillance technology",
+      "ethics in computing",
+      "social science research",
+      "technology studies",
+      "data governance",
+      "algorithmic transparency",
+      "video surveillance"
+    ],
+    "shortDescription": "This open access book offers a detailed ethnographic analysis of an algorithm under development to explain broader social and digital implications. It follows the development of an ethical video surveillance algorithm for transport hubs over three years, examining questions of ethics, transparency, accountability, and market value in algorithmic systems.",
+    "excerpt": "In the preceding paragraphs, I suggested that insights into the everyday life of the algorithm are crucial to making sense of how it participates in bringing about effects. It is these effects and the complex sets of relations that in various ways underpin their emergence that need to be studied for the ordered steps of the abandoned luggage algorithm to be rendered accountable.",
+    "reviews": [
+      {
+        "review": "This book offers unique access to algorithm design, development and testing, while bearing witness to its fragility and dependency on others. The ethnographic approach provides valuable insights into algorithmic accountability.",
+        "reviewer": "Academic Reviewer on ResearchGate"
+      },
+      {
+        "review": "Das Buch behandelt Algorithmen nur nebenläufig, es sind eher mehrere wissenschaftliche Arbeiten, die hier zusammengefügt und erläutert werden. (The book only treats algorithms tangentially; it's more several scientific works compiled and explained together.)",
+        "reviewer": "German Computer Science Student on Amazon"
+      }
+    ],
+    "coverImageLink": "https://images.springer.com/sgw/books/medium/9783030005771.jpg"
+  },
+
+
+
+
+  {
+    "title": "The Art of Computer Programming",
+    "author": "Donald Ervin Knuth",
+    "isbn": {
+      "volume1": "0-201-89683-4",
+      "volume2": "0-201-89684-2",
+      "volume3": "0-201-89685-0",
+      "volume4A": "978-0-201-03804-0",
+      "volume4B": "978-0-201-03806-4"
+    },
+    "tags" : ["Computer Science", "Algorithms"],
+    "search_tags": [
+      "algorithms",
+      "data structures",
+      "mathematical analysis",
+      "computer programming",
+      "sorting",
+      "searching",
+      "combinatorial algorithms",
+      "MIX assembly language",
+      "MMIX",
+      "algorithm analysis",
+      "computational complexity",
+      "programming theory"
+    ],
+    "shortDescription": "A comprehensive multi-volume monograph presenting programming algorithms and their analysis. Widely recognized as the definitive description of classical computer science, covering fundamental algorithms, seminumerical algorithms, sorting and searching, and combinatorial algorithms. The work is renowned for its mathematical rigor, comprehensive exercises, and historical context.",
+    "excerpt": "Even if sorting were almost useless, there would be plenty of rewarding reasons for studying it anyway! The ingenious algorithms that have been discovered show that sorting is an extremely interesting topic to explore in its own right. Many fascinating unsolved problems remain in this area, as well as quite a few solved ones.",
+    "reviews": [
+      {
+        "review": "In describing the new fourth volume, one reviewer listed the qualities that distinguish all of Knuth's work: detailed coverage of the basics, illustrated with well-chosen examples; occasional forays into more esoteric topics and problems at the frontiers of research; impeccable writing peppered with occasional bits of humor; extensive collections of exercises, all with solutions or helpful hints; a careful attention to history; implementations of many of the algorithms in his classic step-by-step form.",
+        "reviewer": "Frank Ruskey, Department of Computer Science, University of Victoria"
+      },
+      {
+        "review": "The Art of Computer Programming is not a work for everyone, not even for all programmers. It will be a valuable reference for those working on the implementation and optimisation of key algorithms and data structures, but the more mathematically inclined will dip into it simply for pleasure.",
+        "reviewer": "Technical Reviewer, Computing Reviews"
+      },
+      {
+        "review": "These four books comprise what easily could be the most important set of information on any serious programmer's bookshelf. It's always a pleasure when a problem is hard enough that you have to get the Knuths off the shelf. I find that merely opening one has a very useful terrorizing effect on computers.",
+        "reviewer": "Jonathan Laventhal, Professional Programmer"
+      }
+    ],
+    "coverImageLink": "https://images-na.ssl-images-amazon.com/images/P/0201896834.01.L.jpg"
+  },
+
+
+
+
+
+  {
+    "title": "Never Split the Difference",
+    "subtitle": "Negotiating As If Your Life Depended On It",
+    "author": "Chris Voss (with co-author Tahl Raz)",
+    "isbn": {
+      "hardcover": "9780062407801",
+      "paperback": "9781847941497",
+      "ebook": "9780062407818"
+    },
+    "tags":[""],
+    "search_tags": [
+      "negotiation",
+      "communication",
+      "FBI tactics",
+      "hostage negotiation",
+      "business skills",
+      "emotional intelligence",
+      "tactical empathy",
+      "persuasion",
+      "conflict resolution",
+      "leadership",
+      "psychology"
+    ],
+    "shortDescription": "A former FBI hostage negotiator reveals field-tested strategies for high-stakes negotiations applicable to business and everyday life. Drawing from life-or-death situations, Voss presents counterintuitive techniques that challenge traditional negotiation wisdom, emphasizing emotional intelligence, tactical empathy, and active listening over compromise and logic-based approaches.",
+    "excerpt": "Negotiation is not an act of battle; it's a process of discovery. The goal is to uncover as much information as possible. If you approach a negotiation thinking the other guy thinks like you, you are wrong. That's not empathy, that's a projection.",
+    "reviews": [
+      {
+        "review": "This book blew my mind. It's a riveting read, full of instantly actionable advice—not just for high-stakes negotiations, but also for handling everyday conflicts at work and at home.",
+        "reviewer": "Adam Grant, Wharton Professor and New York Times bestselling author"
+      },
+      {
+        "review": "Chatty and friendly and packed with helpful resources, this is an intriguing approach to business and personal negotiations.",
+        "reviewer": "Publishers Weekly"
+      },
+      {
+        "review": "Former FBI Hostage Negotiator Chris Voss has few equals when it comes to high-stakes negotiations. Whether for your business or your personal life, his techniques work.",
+        "reviewer": "Joe Navarro, FBI Special Agent (Ret.)"
+      }
+    ],
+    "coverImageLink": "Available from Harper Business (publisher), Amazon, Barnes & Noble, and other major book retailers"
+  },
+
+
+
+
+  {
+    "title": "The Body at War",
+    "subtitle": "The Miracle of the Immune System",
+    "author": "John M. Dwyer, M.D.",
+    "isbn": [
+      "9780453006460",
+      "9780460861991",
+      "9780048200396"
+    ],
+    "tags":[""],
+    "search_tags": [
+      "immunology",
+      "immune system",
+      "medical science",
+      "health",
+      "biology",
+      "AIDS research",
+      "cancer",
+      "allergies",
+      "transplantation",
+      "autoimmune diseases",
+      "chronic fatigue syndrome",
+      "medical education"
+    ],
+    "shortDescription": "Written by a leading clinical immunologist, this accessible book explains the complex workings of the human immune system and its role in defending against viruses, bacteria, and other threats. The book covers how immune knowledge applies to human transplantation, AIDS and cancer research, allergies, and autoimmune conditions, using case studies to humanize complex medical concepts.",
+    "excerpt": "Twenty-four hours a day our bodies are at war. Millions of tiny but potent microbes surround us, anxious to invade and occupy our organs and tissues. Were it not for the highly sophisticated and vigilant defence forces of our immune system, we would succumb.",
+    "reviews": [
+      {
+        "review": "Authoritative, accessible . . . a major accomplishment",
+        "reviewer": "Publishers Weekly"
+      },
+      {
+        "review": "Prof John Dwyer has a very simple and clear way of describing an immensely difficult, complex and mysterious subject. As a sufferer, he has helped me understand how things fit together like a jig-saw puzzle. Sure takes a lot of the fear away.",
+        "reviewer": "Verified Amazon reviewer"
+      },
+      {
+        "review": "A noted clinical immunologist explains what is known about the immune system and how that knowledge is applied to human transplantation, AIDS and cancer research, and the treatment of allergies",
+        "reviewer": "Library Journal review"
+      }
+    ],
+    "coverImageLink": "Available from original publishers (various editions), Amazon, Google Books, and academic book retailers"
+  },
+
+
+
+
+  {
+    "title": "Dublin and the Viking World",
+    "author": "Howard Clarke, Sheila Dooley, Ruth Johnson, Ruth Johnston",
+    "isbn": "9781788490160",
+    "search_tags": [
+      "Viking Age Dublin",
+      "archaeological evidence",
+      "maritime history",
+      "urban development",
+      "medieval trade",
+      "multicultural commerce",
+      "Viking society",
+      "Irish-Norse interactions",
+      "material culture",
+      "medieval archaeology"
+    ],
+    "tags":[""],
+    "shortDescription": "This richly illustrated account explores Viking Dublin as a vibrant, multicultural center of commerce in early medieval Europe. Drawing on Dublin's unique archaeological record and written sources, the book takes readers beyond myths to reveal the realities of how Vikings developed a small coastal settlement into a bustling hub of trade and craft.",
+    "excerpt": "Viking Dublin was a vibrant, multicultural centre of commerce in early medieval Europe. Now Dublin is unique in the world for its enormous stock of preserved archaeological and written records. Together, they reveal intimate details of life in the city and bring us beyond the myths to a people who developed a small coastal settlement into a bustling hub of trade and craft.",
+    "reviews": [
+      {
+        "review": "This volume is richly illustrated and delivers a fascinating historical account",
+        "reviewer": "Irish Echo"
+      },
+      {
+        "review": "A beautifully illustrated book which discusses various topics, e.g. ships, trade, towns, warfare, and places the history of the Vikings in Dublin in the context of the wider Norse world. A very useful guide to anyone visiting the Dublinia exhibition, which I can thoroughly recommend",
+        "reviewer": "Amazon Customer UK"
+      },
+      {
+        "review": "There's a wonderful assortment of pictures, charts, maps etc and the information contained within is amazing to say the least. If you're a collector or just interested in Vikings, you won't regret this book!",
+        "reviewer": "Verified Amazon Reviewer"
+      }
+    ],
+    "coverImageLink": "https://images-na.ssl-images-amazon.com/images/I/91xPZXqrolL._AC_UL116_SR116,116_.jpg"
+  },
+
+
+
+  
+  {
+    "title": "Medieval Ireland",
+    "author": "Clare Downham",
+    "isbn": "9781107651654",
+    "search_tags": [
+      "Medieval Irish history",
+      "cultural development",
+      "land use",
+      "economy",
+      "society",
+      "religion",
+      "politics",
+      "arts",
+      "Anglo-Norman invasion",
+      "Viking interactions",
+      "social change",
+      "archaeological evidence",
+      "primary sources"
+    ],
+    "tags":[""],
+    "shortDescription": "This comprehensive survey of Ireland from AD 400-1500 challenges stereotypes of medieval Ireland as backward-looking. Downham demonstrates what a culturally rich and diverse place medieval Ireland was, examining internal changes in land-use, economy, society, religion, politics and culture while disputing the idea of an archaic society.",
+    "excerpt": "Medieval Ireland is often described as a backward-looking nation in which change only came about as a result of foreign invasions. By examining the wealth of under-explored evidence available, Downham challenges this popular notion and demonstrates what a culturally rich and diverse place medieval Ireland was.",
+    "reviews": [
+      {
+        "review": "Clare Downham's Medieval Ireland offers a fresh and stimulating perspective on culture, politics, religion, and the arts during a crucial period in Irish history. Combining her own researches with the latest studies, Downham's lively and engaging narrative makes this book accessible to the general reader as much as the rigour of her scholarship presents new vistas to the specialist",
+        "reviewer": "Benjamin Hudson, Pennsylvania State University"
+      },
+      {
+        "review": "This thought-provoking work is the first of its kind in over a generation to survey a full millennium of Ireland's medieval history. Drawing on the latest research, the author bridges the conventional historiographical boundary marked by the Anglo-Norman invasion of 1169 and presents Ireland's social and cultural experience during the Middle Ages in all its richness",
+        "reviewer": "Peter Crooks, Trinity College Dublin"
+      },
+      {
+        "review": "Clare Downham's Medieval Ireland is by far the most up-to-date, balanced and scholarly introduction to the whole history of Ireland in the millennium from the beginnings of literacy to the end of the Middle Ages. It is quite remarkably successful in its coverage not just of all periods but of all the main strands of history, religious and artistic as well as economic and political. For any course that seeks to cover the medieval history of these islands, it will be a foundational text",
+        "reviewer": "Thomas Charles-Edwards, University of Oxford"
+      }
+    ],
+    "coverImageLink": "The book is available through Cambridge University Press and major retailers like Amazon, Barnes & Noble, WHSmith, and World of Books. The book features the standard Cambridge Medieval Textbooks series design. Direct link to cover image on retailer sites:\n- Amazon UK: https://www.amazon.co.uk/Medieval-Ireland-Cambridge-Textbooks/dp/1107651654\n- Cambridge University Press: https://www.cambridge.org/core/books/medieval-ireland/21B5EEA91D2823B7449FB43F9C8D2476"
+  }
+]
