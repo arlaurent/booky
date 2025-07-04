@@ -1,5 +1,5 @@
-[
-  {
+{
+  "1": {
     "title": "The Body Keeps the Score",
     "subtitle": "Brain, Mind, and Body in the Healing of Trauma",
     "author": "Bessel van der Kolk, M.D.",
@@ -47,7 +47,7 @@
 
 
 
-  {
+  "2": { 
     "title": "Modern Engineering for Design of Liquid-Propellant Rocket Engines",
     "subtitle": "",
     "author": "Dieter K. Huzel and David H. Huang",
@@ -92,7 +92,7 @@
 
 
 
-  {
+  "3": {
     "title": "Ignition!",
     "subtitle": "An Informal History of Liquid Rocket Propellants",
     "author": "John Drury Clark, Ph.D.",
@@ -138,7 +138,7 @@
 
 
 
-  {
+  "4": {
     "title": "The Everyday Life of an Algorithm",
     "author": "Daniel Neyland",
     "isbn": {
@@ -176,7 +176,7 @@
 
 
 
-  {
+  "5": {
     "title": "The Art of Computer Programming",
     "author": "Donald Ervin Knuth",
     "isbn": {
@@ -224,7 +224,7 @@
 
 
 
-  {
+  "6": {
     "title": "Never Split the Difference",
     "subtitle": "Negotiating As If Your Life Depended On It",
     "author": "Chris Voss (with co-author Tahl Raz)",
@@ -269,7 +269,7 @@
 
 
 
-  {
+  "7": {
     "title": "The Body at War",
     "subtitle": "The Miracle of the Immune System",
     "author": "John M. Dwyer, M.D.",
@@ -315,7 +315,7 @@
 
 
 
-  {
+  "8": {
     "title": "Dublin and the Viking World",
     "author": "Howard Clarke, Sheila Dooley, Ruth Johnson, Ruth Johnston",
     "isbn": "9781788490160",
@@ -354,7 +354,7 @@
 
 
   
-  {
+  "9": {
     "title": "Medieval Ireland",
     "author": "Clare Downham",
     "isbn": "9781107651654",
@@ -392,4 +392,4 @@
     ],
     "coverImageLink": "The book is available through Cambridge University Press and major retailers like Amazon, Barnes & Noble, WHSmith, and World of Books. The book features the standard Cambridge Medieval Textbooks series design. Direct link to cover image on retailer sites:\n- Amazon UK: https://www.amazon.co.uk/Medieval-Ireland-Cambridge-Textbooks/dp/1107651654\n- Cambridge University Press: https://www.cambridge.org/core/books/medieval-ireland/21B5EEA91D2823B7449FB43F9C8D2476"
   }
-]
+}
