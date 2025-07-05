@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 // import Card from '../../components/Card';
 
-import { getBookData } from './bookData';
 import {Bebas_Neue, Inclusive_Sans} from '@next/font/google';
 import Masonry from 'react-masonry-css';
 
@@ -50,7 +49,7 @@ export default function Home(){
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('api/books')
+        fetch('/api')
             .then(res => res.json())
             .then(data => {
                 setBookDataset(data);
