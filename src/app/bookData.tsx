@@ -1,3 +1,5 @@
+"use server"
+
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -22,20 +24,25 @@ interface bookData {
 
         reviews?: {
             review: string;
-            reviewer: string;
+            reviewer?: string;
         }[];
 
         coverImageLink?: string | undefined;
     };
 }
 
-export default async function Books() {
+export async function getBookData(): Promise<bookData> {
     const jsonPath: string = path.join(process.cwd(), 'data/Books.json');
     const tinyLibrary: string = await fs.readFile(jsonPath, 'utf8');
     
-    const bigLib: bookData = JSON.parse(tinyLibrary);
+    const bigLib = JSON.parse(tinyLibrary);
 
-    return(<div>
-        {JSON.stringify(bigLib, null, 2)}
-    </div>)
+    return (bigLib);
+}
+
+export default async function Books() {
+    
+    const library = await getBookData();
+
+    return(library);
 }
