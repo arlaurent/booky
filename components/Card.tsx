@@ -1,6 +1,9 @@
+
+
 export default function Card ({book}) {
     return(
         <div className = "card">
+            <p> { book.title } </p>
             <div className = "tag-Container">
 
                 {book.tags.map ((tag, index) => (<div className = "bookmark-tag"> {tag} </div> ))}

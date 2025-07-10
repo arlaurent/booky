@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react';
-// import Card from '../../components/Card';
+import Card from '../../components/Card';
 
 import {Bebas_Neue, Inclusive_Sans} from '@next/font/google';
 import Masonry from 'react-masonry-css';
@@ -54,7 +54,6 @@ export default function Home(){
             .then(data => {
                 setBookDataset(data);
                 setLoading(false);
-                console.log('this is the data', data);
             }).catch(error => {
                 console.error('error fetching books', error);
                 setLoading(false);
@@ -70,7 +69,7 @@ export default function Home(){
     };
 
     if (loading) return <div>Loading</div>;
-    if (!bookDataset) return (
+    if (!bookDataset) return <div>
         <div className = {["container", bebasNeue.className, inclusiveSans.className].join(' ')}> 
             <h1>Masonry</h1>            
 
@@ -79,9 +78,9 @@ export default function Home(){
                 className = "masonry-grid"
                 columnClassName = "masonry-grid-column">
                     {
-                       Object.entries(bookDataset).map(([key, book]) => (
+                       Object.entries(bookDataset).map(([key, bookData]) => (
                             <div key={key}>
-                                <h2>{book.title}</h2>
+                                <Card book={{bookData.key}} />
                             </div>
                        ))
                     }
@@ -103,6 +102,7 @@ export default function Home(){
                 }
             `}</style>
         </div>
-    );
+        </div>
+    ;
 }
 
