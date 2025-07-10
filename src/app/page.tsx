@@ -68,8 +68,9 @@ export default function Home(){
         700: 1
     };
 
-    if (loading) return <div>Loading</div>;
-    if (!bookDataset) return <div>
+    if (loading) { return <div>Loading</div>; }
+    if (!bookDataset) { return <div> Failed to get data.</div> }
+    else { return(
         <div className = {["container", bebasNeue.className, inclusiveSans.className].join(' ')}> 
             <h1>Masonry</h1>            
 
@@ -95,14 +96,12 @@ export default function Home(){
                     margin-left: auto;
                     margin-right: auto;
                 } 
-                .masonry.grid_column{
+                .masonry-grid-column{
                     padding-left: 10px;
                     padding-right: 10px;
                     background-clip: padding-box;
                 }
             `}</style>
-        </div>
-        </div>
-    ;
+        </div>)};
 }
 
