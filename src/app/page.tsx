@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react';
-import Card from '../../components/Card';
-
 import {Bebas_Neue, Inclusive_Sans} from '@next/font/google';
+
+import Card from '../../components/Card';
 import Masonry from 'react-masonry-css';
 
 const bebasNeue = Bebas_Neue({subsets: ['latin'], weight: '400'});
@@ -45,7 +45,7 @@ interface bookDisplayProps {
 
 export default function Home(){
 
-    const [bookDataset, setBookDataset] = useState(null);
+    const [bookDataset, setBookDataset] = useState<bookData | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -54,13 +54,14 @@ export default function Home(){
             .then(data => {
                 setBookDataset(data);
                 setLoading(false);
+                console.log('fetched book data', data);
             }).catch(error => {
                 console.error('error fetching books', error);
                 setLoading(false);
             });
     }, []);
 
-    console.log("hello world", bookDataset);
+    console.log("hello world", bookDataset, 'with keys', bookDataset.keys);
     
     const breakpointColumnsObj = {
         default: 3,
@@ -78,13 +79,7 @@ export default function Home(){
                 breakpointCols = {breakpointColumnsObj}
                 className = "masonry-grid"
                 columnClassName = "masonry-grid-column">
-                    {
-                       Object.entries(bookDataset).map(([key, bookData]) => (
-                            <div key={key}>
-                                <Card book={{bookData.key}} />
-                            </div>
-                       ))
-                    }
+                    hello
             </Masonry>
             
             <style jsx global>{`

@@ -1,12 +1,38 @@
+interface BookData{
+    title: string;
+    subtitle?: string;
+    author: string;
+    isbn?: {
+        hardcover?: string;
+        softcover?: string;
+        ebook?: string;
+        [otherEdition: string]: string | undefined;
+    };
 
+        tags: string[];
+        search_tags: string[];
 
-export default function Card ({book}) {
+        shortDescription: string;
+        excerpt: string;
+        
+        reviews?: {
+            review: string;
+            reviewer?: string;
+        }[];
+        coverImageLink?: string;
+}
+
+interface CardProps {
+    book: BookData;
+}
+
+export default function Card ({ book }: CardProps) {
     return(
         <div className = "card">
-            <p> { book.title } </p>
             <div className = "tag-Container">
-
-                {book.tags.map ((tag, index) => (<div className = "bookmark-tag"> {tag} </div> ))}
+                {book.tags.map ((tag, index) => (
+                    <div key={index} className = "bookmark-tag"> {tag} </div> 
+                ))}
             </div>
             
             <div className = "card-content">
@@ -14,32 +40,32 @@ export default function Card ({book}) {
                     <div className = "subCard-One-Container">
                         <h2>{book.title}</h2>
                         
-                        {book.author && (<div className="author-Container">by <span className="author">
-                                                className{book.author}
-                                            </span>                            
+                        {book.author && (<div className="author-Container">
+                                            by <span className="author">{book.author}</span>
                                         </div>)}
                     </div>
-
 
                     {book.subtitle && (
                             <div className="subtitle">"{book.subtitle}"</div>
                         )}
 
-                    {
-                        reviews && reviews.length > 0 && (
+                    { book.reviews && (book.reviews.length > 0) && (
                             <div className="reviews">
                                 <h4>What readers say:</h4>
-                                {reviews.map(
+                                {book.reviews.map(
                                         (review, index) => (
                                             <div key={index} className="review"> 
-                                                "{review.quote}"
+                                                "{review}"
+                                                {review.reviewer && (
+                                                    <span className="reviewer">{review.reviwer}</span>
+                                                )}
                                             </div>
                                         ))}
                             </div>
                         )}
-                    {tags && tags.length > 0 && (
+                    {book.tags && book.tags.length > 0 && (
                         <div className = "tags">
-                            {tags.map((tagItem, index) => (<span key={index} className="tag">{tagItem.tag}</span>))}
+                            {book.tags.map((index, tagItem) => (<div key={index} className="tag">{tagItem.tag}</div>))}
                         </div>
                     )}
                 </div>
