@@ -75,9 +75,9 @@ export default function Home(){
                 breakpointCols = { breakpointColumnsObj }
                 className = "masonry-grid"
                 columnClassName = "masonry-grid-column">                    
-                    { Object.keys(bookDataset).forEach(index => {
-                        console.log(index, " iteration ",JSON.stringify(bookDataset[index]))
-                    })}
+                    { Object.keys(bookDataset).map(index => 
+                        <div key={index}>{bookDataset[index].title}</div>
+                    )}
                     
             </Masonry>
             
