@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 interface bookData {
-    [key: string]: {
+    [index: string]: {
         title: string;
         subtitle?: string;
         author: string;

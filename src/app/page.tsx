@@ -15,7 +15,7 @@ interface bookReview {
 }
 
 interface bookData {
-    [key: string]: {
+    [index: string]: {
         title: string;
         subtitle?: string;
 
@@ -38,10 +38,6 @@ interface bookData {
     }
 }
 
-interface bookDisplayProps {
-    books: bookData;
-}
-
 
 export default function Home(){
 
@@ -61,7 +57,7 @@ export default function Home(){
             });
     }, []);
 
-    console.log("hello world", bookDataset, 'with keys', bookDataset.keys);
+    console.log("hello world", bookDataset, 'with keys', bookDataset);
     
     const breakpointColumnsObj = {
         default: 3,
@@ -76,10 +72,13 @@ export default function Home(){
             <h1>Masonry</h1>            
 
             <Masonry
-                breakpointCols = {breakpointColumnsObj}
+                breakpointCols = { breakpointColumnsObj }
                 className = "masonry-grid"
-                columnClassName = "masonry-grid-column">
-                    hello
+                columnClassName = "masonry-grid-column">                    
+                    { Object.keys(bookDataset).forEach(index => {
+                        console.log(index, " iteration ",JSON.stringify(bookDataset[index]))
+                    })}
+                    
             </Masonry>
             
             <style jsx global>{`
