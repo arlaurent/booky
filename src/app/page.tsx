@@ -76,7 +76,7 @@ export default function Home(){
                 className = "masonry-grid"
                 columnClassName = "masonry-grid-column">                    
                     { Object.keys(bookDataset).map(index => 
-                        <div key={index}>{bookDataset[index].title}</div>
+                        <div key={index}><Card book = {bookDataset[index]}/></div>
                     )}
                     
             </Masonry>
@@ -95,6 +95,16 @@ export default function Home(){
                     padding-right: 10px;
                     background-clip: padding-box;
                 }
+                
+                .card {
+                margin: 2.5ch 1ch 2.5ch 1ch;            
+                width: 40ch;
+                background-color: #fdfdfd;
+                overflow: hidden;
+                border-radius: 2.5ch 2.5ch 0.5ch 2.5ch/2.5ch 2.5ch 0.5ch 2.5ch;
+                box-shadow: 1ch 1ch 2ch 0.25ch rgba(45, 45, 45, 0.25);
+                position:relative;                
+            }
             `}</style>
         </div>)};
 }
