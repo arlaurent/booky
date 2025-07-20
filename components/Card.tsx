@@ -30,10 +30,24 @@ export default function Card ({ book }: CardProps) {
     return(
     
         <div className = "card">
-            <p>{book.title}</p>
-            <div>{book.subtitle && (<div>{book.subtitle}</div>)}</div>
+            <div>
+                <div>
+                    <div>{book.title}</div>
+                    {book.subtitle && (<div>{book.subtitle}</div>)}
+                </div>
             by {book.author} <br />
-
+            </div>
+            <div>
+                <p>{book.shortDescription}</p>
+                <quote>{book.excerpt}</quote>
+            </div>
+            <div>
+                {book.reviews &&(
+                    book.reviews.map((bookReview) => <div><p>{bookReview.review}</p><p>{(bookReview.reviewer && (
+                        <span>{bookReview.reviewer}</span>
+                    ))}</p></div> )
+                )}
+            </div>
 
         </div>
         
