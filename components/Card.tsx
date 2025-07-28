@@ -39,7 +39,7 @@ export default function Card ({ book }: CardProps) {
             </div>
             <div>
                 <p>{book.shortDescription}</p>
-                <quote>{book.excerpt}</quote>
+                <q>{book.excerpt}</q>
             </div>
             <div>
                 {book.reviews &&(
@@ -47,6 +47,13 @@ export default function Card ({ book }: CardProps) {
                         <span>{bookReview.reviewer}</span>
                     ))}</p></div> )
                 )}
+            </div>
+            <div>
+                {book.isbn && (Object.keys(book.isbn).map(index =>
+                    <div key={index}>{book.isbn[index]}</div>
+                )
+                )
+                }
             </div>
 
         </div>

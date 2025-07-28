@@ -273,11 +273,11 @@
     "title": "The Body at War",
     "subtitle": "The Miracle of the Immune System",
     "author": "John M. Dwyer, M.D.",
-    "isbn": [
-      "9780453006460",
-      "9780460861991",
-      "9780048200396"
-    ],
+    "isbn": {
+      "1st Ed. - Hardcover": "9780453006460",
+      "2nd Ed. - Hardover":"9780460861991",
+      "Paperback": "9780048200396"
+    },
     "tags":[""],
     "search_tags": [
       "immunology",
@@ -318,7 +318,7 @@
   "8": {
     "title": "Dublin and the Viking World",
     "author": "Howard Clarke, Sheila Dooley, Ruth Johnson, Ruth Johnston",
-    "isbn": "9781788490160",
+    "isbn": {"Illustrated, Paperback":"9781788490160"},
     "search_tags": [
       "Viking Age Dublin",
       "archaeological evidence",
@@ -341,7 +341,7 @@
       },
       {
         "review": "A beautifully illustrated book which discusses various topics, e.g. ships, trade, towns, warfare, and places the history of the Vikings in Dublin in the context of the wider Norse world. A very useful guide to anyone visiting the Dublinia exhibition, which I can thoroughly recommend",
-        "reviewer": "Amazon Customer UK"
+        "reviewer": "Amazon Customer, UK"
       },
       {
         "review": "There's a wonderful assortment of pictures, charts, maps etc and the information contained within is amazing to say the least. If you're a collector or just interested in Vikings, you won't regret this book!",
@@ -357,7 +357,7 @@
   "9": {
     "title": "Medieval Ireland",
     "author": "Clare Downham",
-    "isbn": "9781107651654",
+    "isbn": ["9781107651654"],
     "search_tags": [
       "Medieval Irish history",
       "cultural development",
@@ -374,7 +374,7 @@
       "primary sources"
     ],
     "tags":[""],
-    "shortDescription": "This comprehensive survey of Ireland from AD 400-1500 challenges stereotypes of medieval Ireland as backward-looking. Downham demonstrates what a culturally rich and diverse place medieval Ireland was, examining internal changes in land-use, economy, society, religion, politics and culture while disputing the idea of an archaic society.",
+    "shortDescription": "This comprehensive survey of Ireland from AD 400 - 1500 challenges stereotypes of medieval Ireland as backward-looking. Downham demonstrates what a culturally rich and diverse place medieval Ireland was, examining internal changes in land-use, economy, society, religion, politics and culture while disputing the idea of an archaic society.",
     "excerpt": "Medieval Ireland is often described as a backward-looking nation in which change only came about as a result of foreign invasions. By examining the wealth of under-explored evidence available, Downham challenges this popular notion and demonstrates what a culturally rich and diverse place medieval Ireland was.",
     "reviews": [
       {

@@ -61,7 +61,7 @@ export default function Home(){
     
     const breakpointColumnsObj = {
         default: 3,
-        1100: 2,
+        1080: 2,
         700: 1
     };
 
@@ -97,7 +97,8 @@ export default function Home(){
                 }
                 
                 .card {
-                margin: 2.5ch 1ch 2.5ch 1ch;            
+                margin: 2.5ch 1ch 2.5ch 1ch; 
+                padding: 1ch;           
                 width: 40ch;
                 background-color: #fdfdfd;
                 overflow: hidden;
